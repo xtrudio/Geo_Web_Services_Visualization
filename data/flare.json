@@ -1,159 +1,616 @@
 [
-{"type":"category","name":"programming.PROGRAMMING LANGUAGE","size":12,"imports":[]},
-{"name":"programming.C++","size":3812,"imports":[]},
-{"name":"programming.C","size":6714,"imports":[]},
-{"name":"programming.SQL","size":743,"imports":[]},
-{"name":"programming.Java","size":3534,"imports":[]},
-{"name":"programming.Python","size":5731,"imports":[]},
-{"name":"programming.C#","size":7840,"imports":[]},
-{"name":"programming.VisualBasicNET","size":5914,"imports":[]},
-{"name":"programming.Flex","size":3416,"imports":[]},
-{"name":"programming.JavaScript","size":7074,"imports":[]},
-{"name":"programming.ActionScript","size":721,"imports":[]},
-{"name":"programming.PHP","size":4294,"imports":[]},
-{"name":"programming.R","size":9800,"imports":[]},
-{"name":"programming.S","size":1314,"imports":[]},
-{"name":"programming.Ruby","size":2220,"imports":[]},
-{"name":"programming.Groovy","size":1759,"imports":[]},
-{"name":"programming.Jython","size":2165,"imports":[]},
-{"name":"programming.Scala","size":586,"imports":[]},
+  { "name": "programming.PROGRAMMING LANGUAGE", "size": 12, "imports": [] },
+  { "name": "programming.C++", "size": 3812, "imports": [] },
+  { "name": "programming.C", "size": 6714, "imports": [] },
+  { "name": "programming.SQL", "size": 743, "imports": [] },
+  { "name": "programming.Java", "size": 3534, "imports": [] },
+  { "name": "programming.Python", "size": 5731, "imports": [] },
+  { "name": "programming.C#", "size": 7840, "imports": [] },
+  { "name": "programming.VisualBasicNET", "size": 5914, "imports": [] },
+  { "name": "programming.Flex", "size": 3416, "imports": [] },
+  { "name": "programming.JavaScript", "size": 7074, "imports": [] },
+  { "name": "programming.ActionScript", "size": 721, "imports": [] },
+  { "name": "programming.PHP", "size": 4294, "imports": [] },
+  { "name": "programming.R", "size": 9800, "imports": [] },
+  { "name": "programming.S", "size": 1314, "imports": [] },
+  { "name": "programming.Ruby", "size": 2220, "imports": [] },
+  { "name": "programming.Groovy", "size": 1759, "imports": [] },
+  { "name": "programming.Jython", "size": 2165, "imports": [] },
+  { "name": "programming.Scala", "size": 586, "imports": [] },
 
-{"name":"protocols.WEB SERVICE PROTOCOLS","size":3331,"imports":[]},
-{"name":"protocols.BEEP - Blocks Extensible Exchange","size":772,"imports":[]},
-{"name":"protocols.CTS - Canonical Text Services ","size":772,"imports":[]},
-{"name":"protocols.E-Business XML","size":772,"imports":[]},
-{"name":"protocols.Hessian","size":3322,"imports":[]},
-{"name":"protocols.Internet Open Trading Protocol","size":8833,"imports":[]},
-{"name":"protocols.JSON-RPC","size":1732,"imports":["programming.C++"]},
-{"name":"protocols.JSON-WSP","size":3623,"imports":[]},
-{"name":"protocols.SOAP - Simple Object Access Protocol","size":3623,"imports":["webservice.frameworks.Windows Communication Foundation"]},
-{"name":"protocols.UDDI - Universal Description, Discovery, and Integration","size":3623,"imports":[]},
-{"name":"protocols.WPS - Web Processing Service","size":3623,"imports":[]},
-{"name":"protocols.WSCL - Web Services Conversation Language","size":3623,"imports":[]},
-{"name":"protocols.WSDL - Web Services Description Language","size":3623,"imports":["webservice.frameworks.Windows Communication Foundation"]},
-{"name":"protocols.WSFL - Web Services Flow Language (superseded by BPEL)","size":3623,"imports":[]},
-{"name":"protocols.XINS Standard Calling Convention","size":3623,"imports":[]},
-{"name":"protocols.XLANG - XLANG-Specification (superseded by BPEL)","size":3623,"imports":[]},
-{"name":"protocols.XML-RPC - XML Remote Procedure Call","size":3623,"imports":[]},
-{"name":"protocols.REST","size":3617,"imports":[]},
-{"name":"protocols.MTOM","size":3617,"imports":[]},
-{"name":"protocols.XML-RPC","size":3617,"imports":[]},
-{"name":"protocols.JSON-RPC","size":3617,"imports":[]},
-{"name":"protocols.WebSoket","size":3617,"imports":[]},
-{"name":"protocols.JSON","size":3617,"imports":["webservice.frameworks.Windows Communication Foundation"]},
-{"name":"protocols.OData","size":3617,"imports":[]},
-{"name":"protocols.IPC","size":3617,"imports":["webservice.frameworks.Windows Communication Foundation"]},
-{"name":"protocols.P2P","size":3617,"imports":["webservice.frameworks.Windows Communication Foundation"]},
-{"name":"protocols.TCP","size":3617,"imports":["webservice.frameworks.Windows Communication Foundation"]},
-{"name":"protocols.UDP","size":3617,"imports":["webservice.frameworks.Windows Communication Foundation"]},
-{"name":"protocols.MSMQ","size":3617,"imports":["webservice.frameworks.Windows Communication Foundation"]},
-{"name":"protocols.XML","size":3617,"imports":["webservice.frameworks.Windows Communication Foundation"]},
+  { "name": "protocols.WEB SERVICE PROTOCOLS", "size": 3331, "imports": [] },
+  {
+    "name": "protocols.SOAP - Simple Object Access Protocol",
+    "size": 3623,
+    "imports": ["frameworks.Windows Communication Foundation"]
+  },
+  {
+    "name": "protocols.UDDI - Universal Description, Discovery, and Integration",
+    "size": 3623,
+    "imports": []
+  },
+  {
+    "name": "protocols.WPS - Web Processing Service",
+    "size": 3623,
+    "imports": []
+  },
+  {
+    "name": "protocols.WSCL - Web Services Conversation Language",
+    "size": 3623,
+    "imports": []
+  },
+  {
+    "name": "protocols.WSDL - Web Services Description Language",
+    "size": 3623,
+    "imports": ["frameworks.Windows Communication Foundation"]
+  },
+  {
+    "name": "protocols.WSFL - Web Services Flow Language (superseded by BPEL)",
+    "size": 3623,
+    "imports": []
+  },
+  {
+    "name": "protocols.XINS Standard Calling Convention",
+    "size": 3623,
+    "imports": []
+  },
+  {
+    "name": "protocols.XLANG - XLANG-Specification (superseded by BPEL)",
+    "size": 3623,
+    "imports": []
+  },
+  {
+    "name": "protocols.XML-RPC - XML Remote Procedure Call",
+    "size": 3623,
+    "imports": []
+  },
+  {
+    "name": "protocols.BEEP - Blocks Extensible Exchange",
+    "size": 772,
+    "imports": []
+  },
+  {
+    "name": "protocols.CTS - Canonical Text Services ",
+    "size": 772,
+    "imports": []
+  },
+  { "name": "protocols.E-Business XML", "size": 772, "imports": [] },
+  { "name": "protocols.Hessian", "size": 3322, "imports": [] },
+  {
+    "name": "protocols.Internet Open Trading Protocol",
+    "size": 8833,
+    "imports": []
+  },
+  {
+    "name": "protocols.JSON-RPC",
+    "size": 1732,
+    "imports": ["programming.C++"]
+  },
+  { "name": "protocols.JSON-WSP", "size": 3623, "imports": [] },
+  { "name": "protocols.REST", "size": 3617, "imports": [] },
+  { "name": "protocols.MTOM", "size": 3617, "imports": [] },
+  { "name": "protocols.XML-RPC", "size": 3617, "imports": [] },
+  { "name": "protocols.JSON-RPC", "size": 3617, "imports": [] },
+  { "name": "protocols.WebSoket", "size": 3617, "imports": [] },
+  {
+    "name": "protocols.JSON",
+    "size": 3617,
+    "imports": ["frameworks.Windows Communication Foundation"]
+  },
+  { "name": "protocols.OData", "size": 3617, "imports": [] },
+  {
+    "name": "protocols.IPC",
+    "size": 3617,
+    "imports": ["frameworks.Windows Communication Foundation"]
+  },
+  {
+    "name": "protocols.P2P",
+    "size": 3617,
+    "imports": ["frameworks.Windows Communication Foundation"]
+  },
+  {
+    "name": "protocols.TCP",
+    "size": 3617,
+    "imports": ["frameworks.Windows Communication Foundation"]
+  },
+  {
+    "name": "protocols.UDP",
+    "size": 3617,
+    "imports": ["frameworks.Windows Communication Foundation"]
+  },
+  {
+    "name": "protocols.KVP",
+    "size": 3617,
+    "imports": ["frameworks.Windows Communication Foundation"]
+  },
+  {
+    "name": "protocols.MSMQ",
+    "size": 3617,
+    "imports": ["frameworks.Windows Communication Foundation"]
+  },
+  {
+    "name": "protocols.XML",
+    "size": 3617,
+    "imports": ["frameworks.Windows Communication Foundation"]
+  },
 
+  { "name": "web_services.GEO WEB SERVICES", "size": 3617, "imports": [] },
+  { "name": "web_services.Geocoding", "size": 3617, "imports": [] },
+  {
+    "name": "web_services.CSW - Catalogue Service for the Web",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "web_services.SOS - Sensor Observation Service",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "web_services.WCS - Web Coverage Service",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "web_services.WFS - Web Feature Service",
+    "size": 3617,
+    "imports": []
+  },
+  { "name": "web_services.WMS - Web Map Service", "size": 3617, "imports": [] },
+  {
+    "name": "web_services.WPS - Web Processing Service",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "web_services.SPS - Sensor Planning Service",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "web_services.WTS - Web Terrain Service",
+    "size": 3617,
+    "imports": []
+  },
+  { "name": "web_services.Grid Coverage Service", "size": 3617, "imports": [] },
+  {
+    "name": "web_services.CTS - Coordinate Transformation Service",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "web_services.WCPS - Web Coverage Processing Service",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "web_services.WMTS - Web Map Tile Service",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "web_services.O&M - Observations and Measurements",
+    "size": 3617,
+    "imports": []
+  },
 
-{"name":"webservice.frameworks.WEB SERVICES FRAMEWORKS","size":1082,"imports":[]},
-{"name":"webservice.frameworks.Apache Axis","size":1336,"imports":["platform.Java/C++ ", "protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.Apache Axis2","size":319,"imports":["platform.Java","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.Apache CXF","size":10498,"imports":["platform.Java","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.CodeIgniter","size":2822,"imports":["platform.PHP"]},
-{"name":"webservice.frameworks.gSOAP","size":9983,"imports":["platform.C & C++","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.Java Web Services Development Pack / GlassFish","size":2213,"imports":["platform.Java","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.Jello Framework","size":1681,"imports":["platform.GAE/Java"]},
-{"name":"webservice.frameworks.Jersey","size":9983,"imports":["platform.Java"]},
-{"name":"webservice.frameworks.NET Framework","size":9983,"imports":["platform.C#, VB_NET","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.Web Services Interoperability Technology","size":9983,"imports":["platform.Java","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.Web Services Invocation Framework","size":9983,"imports":["platform.Java","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.Windows Communication Foundation","size":9983,"imports":["platform._NET","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.WSO2 WSF/PHP","size":9983,"imports":["platform.PHP","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.XFire became Apache CXF","size":9983,"imports":["platform.Java","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.XML Interface for Network Services","size":9983,"imports":["platform.Java","protocols.SOAP - Simple Object Access Protocol","protocols.WSDL - Web Services Description Language"]},
-{"name":"webservice.frameworks.Dframe Framework","size":9983,"imports":["platform.PHP"]},
-{"name":"webservice.frameworks.Yii","size":9983,"imports":["platform.PHP"]},
-{"name":"webservice.frameworks.Smart_Framework","size":9983,"imports":["platform.PHP", "protocols.SOAP - Simple Object Access Protocol"]},
-{"name":"webservice.frameworks.Symfony2","size":9983,"imports":["platform.PHP", "protocols.SOAP - Simple Object Access Protocol"]},
-{"name":"webservice.frameworks.Zend Framework","size":9983,"imports":["platform.PHP", "protocols.SOAP - Simple Object Access Protocol"]},
+  { "name": "frameworks.WEB SERVICES FRAMEWORKS", "size": 1082, "imports": [] },
+  {
+    "name": "frameworks.Apache Axis",
+    "size": 1336,
+    "imports": [
+      "platform.Java/C++ ",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.Apache Axis2",
+    "size": 319,
+    "imports": [
+      "platform.Java",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.Apache CXF",
+    "size": 10498,
+    "imports": [
+      "platform.Java",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.CodeIgniter",
+    "size": 2822,
+    "imports": ["platform.PHP"]
+  },
+  {
+    "name": "frameworks.gSOAP",
+    "size": 9983,
+    "imports": [
+      "platform.C & C++",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.Java Web Services Dev Pack / GlassFish",
+    "size": 2213,
+    "imports": [
+      "platform.Java",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.Jello Framework",
+    "size": 1681,
+    "imports": ["platform.GAE/Java"]
+  },
+  { "name": "frameworks.Jersey", "size": 9983, "imports": ["platform.Java"] },
+  {
+    "name": "frameworks.NET Framework",
+    "size": 9983,
+    "imports": [
+      "platform.C#, VB_NET",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.Web Services Interoperability Technology",
+    "size": 9983,
+    "imports": [
+      "platform.Java",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.Web Services Invocation Framework",
+    "size": 9983,
+    "imports": [
+      "platform.Java",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.Windows Communication Foundation",
+    "size": 9983,
+    "imports": [
+      "platform._NET",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.WSO2 WSF/PHP",
+    "size": 9983,
+    "imports": [
+      "platform.PHP",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.XFire became Apache CXF",
+    "size": 9983,
+    "imports": [
+      "platform.Java",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.XML Interface for Network Services",
+    "size": 9983,
+    "imports": [
+      "platform.Java",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.WSDL - Web Services Description Language"
+    ]
+  },
+  {
+    "name": "frameworks.Dframe Framework",
+    "size": 9983,
+    "imports": ["platform.PHP"]
+  },
+  { "name": "frameworks.Yii", "size": 9983, "imports": ["platform.PHP"] },
+  {
+    "name": "frameworks.Smart_Framework",
+    "size": 9983,
+    "imports": [
+      "platform.PHP",
+      "protocols.SOAP - Simple Object Access Protocol"
+    ]
+  },
+  {
+    "name": "frameworks.Symfony2",
+    "size": 9983,
+    "imports": [
+      "platform.PHP",
+      "protocols.SOAP - Simple Object Access Protocol"
+    ]
+  },
+  {
+    "name": "frameworks.Zend Framework",
+    "size": 9983,
+    "imports": [
+      "platform.PHP",
+      "protocols.SOAP - Simple Object Access Protocol"
+    ]
+  },
+  {
+    "name": "frameworks.WEB SERVICES FRAMEWORKS ",
+    "size": 1082,
+    "imports": []
+  },
 
-{"name":"platform.PLATFORM","size":3617,"imports":[]},
-{"name":"platform.Java/C++ ","size":3617,"imports":["programming.C++"]},
-{"name":"platform.Java","size":3617,"imports":["programming.C++"]},
-{"name":"platform.PHP","size":3617,"imports":["programming.C++"]},
-{"name":"platform.C & C++","size":3617,"imports":["saas.ArcGIS Online","programming.C++"]},
-{"name":"platform.GAE/Java","size":3617,"imports":["programming.C++"]},
-{"name":"platform.C#, VB_NET","size":3617,"imports":["programming.C++"]},
-{"name":"platform._NET","size":3617,"imports":["programming.C++"]},
+  {
+    "name": "platform.Java/C++ ",
+    "size": 3617,
+    "imports": ["programming.C++"]
+  },
+  { "name": "platform.Java", "size": 3617, "imports": ["programming.C++"] },
+  { "name": "platform.PHP", "size": 3617, "imports": ["programming.C++"] },
+  { "name": "platform.C & C++", "size": 3617, "imports": ["programming.C++"] },
+  { "name": "platform.GAE/Java", "size": 3617, "imports": ["programming.C++"] },
+  {
+    "name": "platform.C#, VB_NET",
+    "size": 3617,
+    "imports": ["programming.C++"]
+  },
+  { "name": "platform._NET", "size": 3617, "imports": ["programming.C++"] },
+  { "name": "platform.PLATFORM", "size": 3617, "imports": [] },
 
+  {
+    "name": "ogcStandards.Catalogue Service for the Web (CSW)",
+    "size": 3617,
+    "imports": []
+  },
+  { "name": "ogcStandards.Filter Encoding (FE)", "size": 3617, "imports": [] },
+  {
+    "name": "ogcStandards.Geography Markup Language (GML)",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.KML Encoding Standard (KML)",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.Sensor Model Language (SensorML)",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.Style Layer Descriptor (SLD)",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.Sensor Observation Service (SOS)",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.Web Coverage Service (WCS)",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.Web Feature Service (WFS)",
+    "size": 3617,
+    "imports": []
+  },
+  { "name": "ogcStandards.Web Map Service (WMS)", "size": 3617, "imports": [] },
+  {
+    "name": "ogcStandards.Web Processing Service (WPS)",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.Sensor Planning Service (SPS)",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.Web Terrain Service (WTS)",
+    "size": 3617,
+    "imports": []
+  },
+  { "name": "ogcStandards.Grid Coverage Service", "size": 3617, "imports": [] },
+  {
+    "name": "ogcStandards.Coordinate Transformation Service",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.Web Coverage Processing Service (WCPS)",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.Web Map Tile Service (WMTS)",
+    "size": 3617,
+    "imports": []
+  },
+  { "name": "ogcStandards.Simple Features (SF)", "size": 3617, "imports": [] },
+  {
+    "name": "ogcStandards.Sensor Web Enablement (SWE)",
+    "size": 3617,
+    "imports": []
+  },
+  { "name": "ogcStandards.Well-Known Text (WKT)", "size": 3617, "imports": [] },
+  {
+    "name": "ogcStandards.Well-Known Binary (WKB)",
+    "size": 3617,
+    "imports": []
+  },
+  {
+    "name": "ogcStandards.XML for Image and Map Annotation (XIMA)",
+    "size": 3617,
+    "imports": []
+  },
+  { "name": "ogcStandards.CityGML", "size": 3617, "imports": [] },
+  { "name": "ogcStandards.GeosciML", "size": 3617, "imports": [] },
+  { "name": "ogcStandards.GML in JPEG 2000", "size": 3617, "imports": [] },
+  {
+    "name": "ogcStandards.Observations and Measurements (O&M)",
+    "size": 3617,
+    "imports": []
+  },
+  { "name": "ogcStandards.Symbology Encoding", "size": 3617, "imports": [] },
+  {
+    "name": "ogcStandards.Transducer Markup Language (TML)",
+    "size": 3617,
+    "imports": []
+  },
+  { "name": "ogcStandards.OGC STANDARDS", "size": 3617, "imports": [] },
 
-{"name":"platform_open.DESKTOP GIS (Free & Open Source)","size":3617,"imports":[]},
-{"name":"platform_open.gvSIG","size":3617,"imports":["programming.Java"]},
-{"name":"platform_open.ILWIS (Integrated Land & Water Information System)","size":3617,"imports":[]},
-{"name":"platform_open.JUMP GIS / OpenJUMP","size":3617,"imports":["programming.Java"]},
-{"name":"platform_open.MapWindow GIS","size":3617,"imports":[]},
-{"name":"platform_open.QGIS","size":3617,"imports":[]},
-{"name":"platform_open.SAGA GIS","size":3617,"imports":["programming.C++"]},
-{"name":"platform_open.uDig","size":3617,"imports":["programming.Java"]},
-{"name":"platform_open.Capaware","size":3617,"imports":["programming.C++"]},
-{"name":"platform_open.FalconView","size":3617,"imports":[]},
-{"name":"platform_open.KOSMO","size":3617,"imports":[]},
-{"name":"platform_open.Kalypso","size":3617,"imports":["programming.Java"]},
-{"name":"platform_open.TerraView","size":3617,"imports":[]},
-{"name":"platform_open.Whitebox GAT","size":3617,"imports":[]},
-
-{"name":"software.sdbms.SDBMS - commercial","size":3617,"imports":[]},
-{"name":"software.sdbms.Boeing’s Spatial Query Server","size":3617,"imports":[]},
-{"name":"software.sdbms.DB2","size":3617,"imports":[]},
-{"name":"software.sdbms.Informix","size":3617,"imports":[]},
-{"name":"software.sdbms.MySQL","size":3617,"imports":[]},
-{"name":"software.sdbms.Microsoft SQL Server","size":3617,"imports":[]},
-{"name":"software.sdbms.Oracle Spatial ","size":3617,"imports":[]},
-{"name":"software.sdbms.SAP HANA","size":3617,"imports":["programming.C++"]},
-{"name":"software.sdbms.Teradata","size":3617,"imports":[]},
-{"name":"software.sdbms.VMDS","size":3617,"imports":[]},
-
-{"name":"software.sdbms_open.SDBMS - open source","size":3617,"imports":[]},
-{"name":"software.sdbms_open.PostGIS","size":3617,"imports":[]},
-{"name":"software.sdbms_open.ArangoDB","size":3617,"imports":[]},
-{"name":"software.sdbms_open.SpatiaLite","size":3617,"imports":[]},
-{"name":"software.sdbms_open.TerraLib","size":3617,"imports":[]},
-
-{"name":"software.servergis.SERVER GIS","size":3617,"imports":[]},
-{"name":"software.servergis.PyWPS","size":3617,"imports":["programming.Python"]},
-{"name":"software.servergis.WebGEN","size":3617,"imports":[]},
-{"name":"software.servergis.52n WPS","size":3617,"imports":[]},
-{"name":"software.servergis.Zoo","size":3617,"imports":[]},
-{"name":"software.servergis.GeoServer","size":3617,"imports":[]},
-{"name":"software.servergis.degree 3","size":3617,"imports":[]},
-
-{"name":"software.mobilegis.MOBILE GIS","size":3617,"imports":[]},
-{"name":"software.mobilegis.QGIS for Android","size":3617,"imports":[]},
-{"name":"software.mobilegis.Geopaparazzi","size":3617,"imports":[]},
-{"name":"software.mobilegis.gvSIG Mobile","size":3617,"imports":["programming.Java"]},
-{"name":"software.mobilegis.gvSIG Mini","size":3617,"imports":["programming.Java"]},
-{"name":"software.mobilegis.tangoGPS/FoxtrotGPS","size":3617,"imports":["programming.C"]},
-{"name":"software.mobilegis.ArcGIS Mobile","size":3617,"imports":[]},
-{"name":"software.mobilegis.IWMS","size":3617,"imports":[]},
-{"name":"software.mobilegis.Enebro","size":3617,"imports":["programming.C++"]},
-{"name":"software.mobilegis.ArcPad","size":3617,"imports":["programming.C++"]},
-{"name":"software.mobilegis.MuniLogic","size":3617,"imports":[]},
-{"name":"software.mobilegis.Tree Plotter","size":3617,"imports":[]},
-{"name":"software.mobilegis.Leafsnap","size":3617,"imports":[]},
-{"name":"software.mobilegis.MapIt","size":3617,"imports":[]},
-{"name":"software.mobilegis.SW Maps","size":3617,"imports":[]},
-{"name":"software.mobilegis.Map With Us","size":3617,"imports":[]},
-{"name":"software.mobilegis.MapPt","size":3617,"imports":[]},
-
-
-{"name":"internet.GeoServer","size":3617,"imports":["programming.Java"]},
-{"name":"internet.MapGuide","size":3617,"imports":["programming.JavaScript"]},
-{"name":"internet.Mapnik","size":3617,"imports":["programming.Python","programming.C++"]},
-{"name":"internet.MapServer","size":3617,"imports":["programming.C"]},
-{"name":"internet.FeatureServer","size":3617,"imports":["programming.Java"]},
-{"name":"internet.QGIS Server","size":3617,"imports":["programming.Java"]},
-{"name":"internet.TinyOWS","size":3617,"imports":["programming.Java"]},
-
-
-{"name":"saas.Software as a Service","size":1880,"imports":[]},
-{"name":"saas.ArcGIS Online","size":1880,"imports":[]},
-{"name":"saas.CartoDB","size":1880,"imports":[]},
-{"name":"saas.Mapbox","size":1880,"imports":[]}
-
-
+  {
+    "name": "apps.PyWPS",
+    "size": 3617,
+    "imports": [
+      "web_services.WPS - Web Processing Service",
+      "programming.Python"
+    ]
+  },
+  { "name": "apps.pygeoapi", "size": 3617, "imports": ["programming.Python"] },
+  { "name": "apps.WebGEN", "size": 3617, "imports": [] },
+  { "name": "apps.Tegola", "size": 3617, "imports": [] },
+  { "name": "apps.ZOO-Project", "size": 3617, "imports": ["programming.C"] },
+  {
+    "name": "apps.GeoServer",
+    "size": 3617,
+    "imports": [
+      "ogcStandards.Catalogue Service for the Web (CSW)",
+      "ogcStandards.Style Layer Descriptor (SLD)",
+      "ogcStandards.Web Map Service (WMS)",
+      "ogcStandards.Web Processing Service (WPS)",
+      "ogcStandards.Well-Known Binary (WKB)",
+      "ogcStandards.Well-Known Text (WKT)",
+      "ogcStandards.Catalogue Service for the Web (CSW)",
+      "ogcStandards.Web Map Tile Service (WMTS)",
+      "web_services.WFS - Web Feature Service",
+      "web_services.WMTS - Web Map Tile Service",
+      "web_services.WPS - Web Processing Service",
+      "web_services.WMS - Web Map Service",
+      "programming.Java"
+    ]
+  },
+  { "name": "apps.MapServer", "size": 3617, "imports": ["programming.C"] },
+  {
+    "name": "apps.GeoNode",
+    "size": 3617,
+    "imports": [
+      "ogcStandards.Catalogue Service for the Web (CSW)",
+      "ogcStandards.Web Map Service (WMS)",
+      "ogcStandards.Web Coverage Service (WCS)",
+      "ogcStandards.Web Feature Service (WFS)",
+      "ogcStandards.Well-Known Text (WKT)",
+      "ogcStandards.Well-Known Binary (WKB)",
+      "programming.ActionScript",
+      "programming.Python"
+    ]
+  },
+  {
+    "name": "apps.GeoNetwork",
+    "size": 1,
+    "imports": [
+      "web_services.CSW - Catalogue Service for the Web",
+      "programming.Java",
+      "ogcStandards.Web Feature Service (WFS)",
+      "ogcStandards.Style Layer Descriptor (SLD)",
+      "ogcStandards.Web Feature Service (WFS)",
+      "ogcStandards.Web Map Service (WMS)",
+      "ogcStandards.Catalogue Service for the Web (CSW)",
+      "ogcStandards.Web Map Tile Service (WMTS)"
+    ]
+  },
+  { "name": "apps.GeoWebCache", "size": 3617, "imports": ["programming.Java"] },
+  { "name": "apps.pycsw", "size": 3617, "imports": ["programming.Python"] },
+  { "name": "apps.pyWPS", "size": 3617, "imports": ["programming.Python"] },
+  {
+    "name": "apps.deegree",
+    "size": 3617,
+    "imports": [
+      "web_services.WMS - Web Map Service",
+      "web_services.CSW - Catalogue Service for the Web",
+      "web_services.WMTS - Web Map Tile Service",
+      "web_services.WPS - Web Processing Service",
+      "web_services.WCS - Web Coverage Service",
+      "programming.Java",
+      "ogcStandards.Web Feature Service (WFS)",
+      "protocols.XML",
+      "protocols.SOAP - Simple Object Access Protocol",
+      "protocols.KVP",
+      "ogcStandards.Web Map Service (WMS)",
+      "ogcStandards.Style Layer Descriptor (SLD)",
+      "ogcStandards.Catalogue Service for the Web (CSW)",
+      "ogcStandards.Web Coverage Service (WCS)",
+      "ogcStandards.Web Processing Service (WPS)"
+    ]
+  },
+  { "name": "apps.istSOS", "size": 3617, "imports": ["programming.Python"] },
+  {
+    "name": "apps.GeoHealthCheck",
+    "size": 3617,
+    "imports": [
+      "ogcStandards.Web Feature Service (WFS)",
+      "ogcStandards.Web Map Service (WMS)",
+      "ogcStandards.Style Layer Descriptor (SLD)",
+      "ogcStandards.Catalogue Service for the Web (CSW)",
+      "ogcStandards.Web Coverage Service (WCS)",
+      "ogcStandards.Web Processing Service (WPS)",
+      "programming.Python"
+    ]
+  },
+  {
+    "name": "apps.MapGuide",
+    "size": 3617,
+    "imports": ["programming.JavaScript"]
+  },
+  {
+    "name": "apps.Mapnik",
+    "size": 3617,
+    "imports": ["programming.Python", "programming.C++"]
+  },
+  {
+    "name": "apps.FeatureServer",
+    "size": 3617,
+    "imports": ["programming.Java"]
+  },
+  { "name": "apps.QGIS Server", "size": 3617, "imports": ["programming.C++"] },
+  { "name": "apps.TinyOWS", "size": 3617, "imports": ["programming.Java"] },
+  {
+    "name": "apps.ArcGIS Online / ArcGIS Server",
+    "size": 3617,
+    "imports": [
+      "web_services.Grid Coverage Service",
+      "protocols.REST",
+      "web_services.WCPS - Web Coverage Processing Service",
+      "web_services.WPS - Web Processing Service",
+      "web_services.WMS - Web Map Service",
+      "web_services.WFS - Web Feature Service",
+      "programming.C++"
+    ]
+  },
+  { "name": "apps.CartoDB", "size": 1880, "imports": [] },
+  {
+    "name": "apps.Mapbox",
+    "size": 1880,
+    "imports": [
+      "web_services.Geocoding",
+      "web_services.WMS - Web Map Service",
+      "web_services.WMTS - Web Map Tile Service",
+      "web_services.WPS - Web Processing Service"
+    ]
+  },
+  { "name": "apps.APPS / PROJECTS / SAAS", "size": 3617, "imports": [] }
 ]
